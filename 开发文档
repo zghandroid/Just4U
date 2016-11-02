@@ -1,5 +1,6 @@
 本项目是一个基于MVP架构的开源项目
 初步打算包含内涵段子功能,音乐播放功能,视频播放功能,支付功能,地图功能,以及聊天功能,兴趣等;
+文件的上传和下载
 模块暂定四个模块(即底部导航):逗你一笑,悦你一耳,亮你一眼
 
 项目结构:
@@ -7,7 +8,7 @@
     model包:MVP中的M层,存放Model接口和实现,分包存放;
     presenter包:MVP中的P层,存放Presenter接口和实现,分包存放;
     view包:MVP中的V层,存放View的接口和实现,分包存放,主要是Activity;
-    ui包:存放相关自定义控件,自定义风格的ProgressDialog等 ;
+    ui包:存放相关自定义控件,自定义风格的ProgressDialog,自定义风格的titlebar等 ;
     utils:相关工具类,如网络请求,时间处理等;
     ForUApplication:项目的Application类;
     animate:存放动画相关工具和类的包;
@@ -41,3 +42,4 @@
 
 需要解决的问题:
     权限问题;
+    第三方SDk的选用;
