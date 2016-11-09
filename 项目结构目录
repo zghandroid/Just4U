@@ -1,0 +1,12 @@
+main-
+    -base
+        -BaseActivity 所有Activity的基类
+        -BaseFragment 所有Fragment的基类
+        -ForUAdapter  通用适配器类
+    -viewimpl
+        -MainActivity 项目主页面
+        -SplashActivity 项目欢迎页面
+    -utils
+        -DateUtil   日期工具类
+        -TimeUtil   时间工具类
+        -HttpManager  网络请求封装类
