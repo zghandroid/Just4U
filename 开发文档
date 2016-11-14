@@ -9,6 +9,7 @@
 注意每个页面需要解决EditText的焦点问题,自动弹出键盘
 当Activity或者Fragment结束或者暂停之后应该结束请求线程
 还有数据缓存的问题
+开发中注意使用单元测试
 
 项目结构:
     base包:相关基类,如BaseActivity,BaseFragment等,对通用操作进行一定的封装,减少重复代码;

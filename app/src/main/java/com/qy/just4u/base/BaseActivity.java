@@ -33,6 +33,7 @@ public abstract class BaseActivity extends AppCompatActivity {
      * 初始化控件
      */
     protected abstract void initView();
+
     /**
      * 初始化监听器
      */
