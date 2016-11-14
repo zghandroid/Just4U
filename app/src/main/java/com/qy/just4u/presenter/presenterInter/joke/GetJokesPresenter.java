@@ -1,4 +1,4 @@
-package com.qy.just4u.presenter.presenterInter;
+package com.qy.just4u.presenter.presenterInter.joke;
 
 import com.qy.just4u.presenter.IPresenter;
 
