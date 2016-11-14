@@ -7,4 +7,5 @@ import com.qy.just4u.presenter.IPresenter;
  */
 
 public interface GetJokesPresenter extends IPresenter {
+
 }
