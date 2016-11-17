@@ -5,4 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <com.qy.just4u.ui.EmptyCtrlEditText
+        android:layout_width="match_parent"
+        android:hint="输入测试数据"
+        android:id="@+id/et_emptyctrl"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

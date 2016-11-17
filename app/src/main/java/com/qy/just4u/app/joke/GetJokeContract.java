@@ -4,6 +4,7 @@ import com.qy.just4u.base.BasePresenter;
 import com.qy.just4u.base.BaseView;
 
 /**
+ * 内涵段子的契约类
  * Created by abc on 2016/11/17.
  */
 
