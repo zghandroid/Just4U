@@ -1,10 +1,9 @@
-package com.qy.just4u.view.viewImpl;
+package com.qy.just4u.app.main;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.qy.just4u.base.BaseActivity;
-import com.qy.just4u.view.viewInterface.SplashView;
 
 
 /**

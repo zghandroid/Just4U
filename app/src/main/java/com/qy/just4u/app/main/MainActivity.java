@@ -1,4 +1,4 @@
-package com.qy.just4u.view.viewImpl;
+package com.qy.just4u.app.main;
 
 import android.os.Bundle;
 
