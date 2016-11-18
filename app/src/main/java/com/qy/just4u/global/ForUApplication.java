@@ -1,4 +1,4 @@
-package com.qy.just4u;
+package com.qy.just4u.global;
 
 import android.app.Application;
 

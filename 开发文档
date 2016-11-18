@@ -9,17 +9,22 @@
 注意每个页面需要解决EditText的焦点问题,自动弹出键盘
 当Activity或者Fragment结束或者暂停之后应该结束请求线程
 还有数据缓存的问题
-开发中注意使用单元测试
+开发中注意使用单元测试,注意使用手势监听,ViewDragerHelper,注意使用wifi,数据网络接口,还有蓝牙,摄像头,以及语音
+api.usb数据交换,定位,短信拦截,电话监听.流量统计.炫酷页面注意使用yalantis系列的效果
+注意使用位运算符
+登录采用进程通信的验证
+注意使用设计模式,单例模式使用静态内部类方式,实现电子书,画廊
+最好涉及到插件化,混合开发,h5和原生交互开发
+
 
 项目结构:
+    animate:动画相关工具类.
     base包:相关基类,如BaseActivity,BaseFragment等,对通用操作进行一定的封装,减少重复代码;
-    model包:MVP中的M层,存放Model接口和实现,分包存放;
-    presenter包:MVP中的P层,存放Presenter接口和实现,分包存放;
-    view包:MVP中的V层,存放View的接口和实现,分包存放,主要是Activity;
     ui包:存放相关自定义控件,自定义风格的ProgressDialog,自定义风格的titlebar等 ;
     utils:相关工具类,如网络请求,时间处理等;
-    ForUApplication:项目的Application类;
-    animate:存放动画相关工具和类的包;
+    global:全局相关的类,例Application
+    constants:常量类
+
 
 命名规范:
     包名:驼峰式,首字母小写,尽量见名知义,例如:presenterImpl;

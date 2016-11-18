@@ -1,7 +1,7 @@
 package com.qy.just4u.utils.db;
 
 /**
- * 数据库管理门面
+ * 数据库管理器 封装GreenDao
  * Created by abc on 2016/11/17.
  */
 
