@@ -37,4 +37,12 @@ dependencies {
     compile 'com.facebook.fresco:fresco:0.14.1'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'org.greenrobot:eventbus:3.0.0'
+
+    // 语音识别相关的依赖
+    compile 'ai.api:sdk:1.10.0@aar'
+    compile 'ai.api:libai:1.2.1'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'commons-io:commons-io:20030203.000550'
+
+
 }

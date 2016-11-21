@@ -1,5 +1,7 @@
 package com.qy.just4u.utils.collectionutil;
 
+import com.qy.just4u.utils.JLog;
+
 import java.lang.reflect.Field;
 import java.util.Collections;
 import java.util.Comparator;
@@ -11,7 +13,16 @@ import java.util.List;
  */
 
 public class SortUtil {
-    public static <T> void sortList(List<T> data, final String sortKey) {
+
+
+    /**
+     * 根据指定的字段对bean排序
+     * @param data  要排序的集合
+     * @param sortKey   要排序的依据字段
+     * @param <T>   bean的泛型
+     * @param <V>   指定字段类型的泛型
+     */
+    public static <T,V extends Comparable<V>> void sortList(List<T> data, final String sortKey) {
         if (data == null || data.size() == 0 || data.size() == 1) {
             return;
         }
@@ -23,15 +34,21 @@ public class SortUtil {
                 try {
                     Field field = tClass.getDeclaredField(sortKey);
                     field.setAccessible(true);
-                    field.get(lhs);
+                    V lhsV = (V) field.get(lhs);
+                    V rhsV = (V) field.get(rhs);
+                    return lhsV.compareTo(rhsV);
                 } catch (NoSuchFieldException e) {
-                    e.printStackTrace();
+//                    e.printStackTrace();
+                    JLog.d("排序方法:没有此Field");
                 } catch (IllegalAccessException e) {
-                    e.printStackTrace();
+//                    e.printStackTrace();
+                    JLog.d("非法的访问权限");
                 }
-
                 return 0;
             }
         });
     }
+
+
+
 }
