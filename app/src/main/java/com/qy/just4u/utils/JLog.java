@@ -1,6 +1,7 @@
 package com.qy.just4u.utils;
 
-import android.util.Log;
+
+import com.orhanobut.logger.Logger;
 
 /**
  * 此项目的log类
@@ -14,33 +15,40 @@ public class JLog {
      */
     private static final boolean LOG = true;
 
+
+    static {
+        Logger.init(TAG);
+    }
+
+
     public static void i(String content) {
         if (LOG) {
-            Log.i(TAG, content);
+            Logger.i(TAG, content);
         }
     }
 
     public static void e(String content) {
         if (LOG) {
-            Log.i(TAG, content);
+            Logger.e(TAG, content);
         }
     }
 
     public static void d(String content) {
         if (LOG) {
-            Log.i(TAG, content);
+//            Log.d(TAG, content);
+            Logger.d(content);
         }
     }
 
     public static void w(String content) {
         if (LOG) {
-            Log.i(TAG, content);
+            Logger.w(TAG, content);
         }
     }
 
     public static void v(String content) {
         if (LOG) {
-            Log.i(TAG, content);
+            Logger.v(TAG, content);
         }
     }
 

@@ -2,12 +2,12 @@ package com.qy.just4u.app.main;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.View;
-import android.widget.EditText;
+
 
 import com.qy.just4u.R;
 import com.qy.just4u.base.BaseActivity;
 import com.qy.just4u.ui.EmptyCtrlEditText;
+import com.qy.just4u.utils.JLog;
 
 
 /**
@@ -35,6 +35,7 @@ public class SplashActivity extends BaseActivity implements SplashView {
     protected void initView() {
         mEt = (EmptyCtrlEditText) findViewById(R.id.et_emptyctrl);
         mEt.setText("测试");
+        JLog.i("测试logger");
     }
 
 

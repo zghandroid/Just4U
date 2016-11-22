@@ -61,6 +61,7 @@
     android-flip(翻页,有点旧了)
         贝塞尔相关:ToggleDrawable    BezierLoadingView
 
+        主页导航切换:ViewPagerIndicator
 
 
     加载进度动画:LoadingDrawable   ProgressWheel CircleProgress   AndroidFillableLoaders
