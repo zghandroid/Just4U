@@ -4,9 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
     lintOptions.abortOnError false
-//    configurations {
-//        all*.exclude group: 'com.android.support', module: 'support-v4'
-//    }
+
     defaultConfig {
         applicationId "com.qy.just4u"
         minSdkVersion 17

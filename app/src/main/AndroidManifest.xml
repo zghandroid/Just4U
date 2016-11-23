@@ -3,8 +3,6 @@
           package="com.qy.just4u">
 
 
-
-
     <application
         android:name=".global.ForUApplication"
         android:allowBackup="true"
@@ -14,14 +12,16 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".app.main.SplashActivity"
-            >
+            android:theme="@style/ActivityTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".app.main.MainActivity">
+        <activity
+            android:name=".app.main.MainActivity"
+            android:theme="@style/ActivityTheme">
 
         </activity>
     </application>

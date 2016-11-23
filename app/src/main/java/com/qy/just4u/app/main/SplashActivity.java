@@ -1,5 +1,6 @@
 package com.qy.just4u.app.main;
 
+import android.app.Service;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
@@ -7,7 +8,8 @@ import android.support.annotation.Nullable;
 import com.qy.just4u.R;
 import com.qy.just4u.base.BaseActivity;
 import com.qy.just4u.ui.EmptyCtrlEditText;
-import com.qy.just4u.utils.JLog;
+
+import butterknife.BindView;
 
 
 /**
@@ -17,8 +19,8 @@ import com.qy.just4u.utils.JLog;
 
 public class SplashActivity extends BaseActivity implements SplashView {
 
-
-    private EmptyCtrlEditText mEt;
+    @BindView(R.id.et_emptyctrl)
+    EmptyCtrlEditText mEt;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,15 +30,13 @@ public class SplashActivity extends BaseActivity implements SplashView {
 
     @Override
     protected void initVariable() {
-
+//        getPackageManager()
     }
 
     @Override
     protected void initView() {
-        mEt = (EmptyCtrlEditText) findViewById(R.id.et_emptyctrl);
-        mEt.setText("测试");
-        JLog.i("测试logger");
     }
+
 
 
     @Override

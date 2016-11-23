@@ -5,7 +5,7 @@ import com.orhanobut.logger.Logger;
 
 /**
  * 此项目的log类
- * Created by abc on 2016/11/14.
+ * Created by qianyue on 2016/11/14.
  */
 
 public class JLog {

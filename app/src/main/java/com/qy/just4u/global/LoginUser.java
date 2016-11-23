@@ -7,7 +7,7 @@ import android.content.Context;
  * Created by abc on 2016/11/21.
  */
 
-public class LoginUser implements UserState {
+class LoginUser implements UserState {
     @Override
     public void comment(Context context) {
         // TODO: 2016/11/21 已经登录的状态情况下点击评论按钮作何处理

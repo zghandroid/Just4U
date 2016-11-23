@@ -7,9 +7,9 @@ import android.content.Context;
  * Created by abc on 2016/11/21.
  */
 
-public class LogoutUser implements UserState {
+class LogoutUser implements UserState {
     @Override
     public void comment(Context context) {
-        // TODO: 2016/11/21 如果是未登录状态,点击评论按钮,如何处理
+        // TODO: 2016/11/21 如果是未登录状态,点击评论按钮,如何处理(跳转到登录页面)
     }
 }
