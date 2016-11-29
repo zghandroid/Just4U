@@ -7,13 +7,16 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 
 /**
  * Fragment基类
  * Created by abc on 2016/11/2.
  */
 
-public class BaseFragment extends Fragment {
+public abstract class BaseFragment extends Fragment {
+
+    protected abstract int getContentViewId();
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

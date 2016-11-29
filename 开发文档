@@ -74,7 +74,7 @@
     AndroidViewAnimations  LikeAnimation(点赞,收藏)  AnimatedCircleLoadingView(加载)
     FragmentAnimations(切换效果),Android-ConvenientBanner(轮播图) XCL-Charts(表格)
     StereoView(3d旋转容器),TransitionHelper(共享元素帮助类)    FlipAnimation(翻页动画)
-    MarqueeView(垂直跑马灯)  BookReader(小说阅读器)
+    MarqueeView(垂直跑马灯)  BookReader(小说阅读器)   ImmortalZ(各种效果)
     腾讯随身调试:GT
     log日志框架:logger
     listView Recyclerview的适配器:base-adapter(hongyang)

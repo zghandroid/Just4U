@@ -2,6 +2,7 @@ package com.qy.just4u.app.main;
 
 import android.app.Service;
 import android.os.Bundle;
+import android.os.MessageQueue;
 import android.support.annotation.Nullable;
 
 
@@ -19,8 +20,8 @@ import butterknife.BindView;
 
 public class SplashActivity extends BaseActivity implements SplashView {
 
-    @BindView(R.id.et_emptyctrl)
     EmptyCtrlEditText mEt;
+    private MessageQueue mQueue;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -30,11 +31,12 @@ public class SplashActivity extends BaseActivity implements SplashView {
 
     @Override
     protected void initVariable() {
-//        getPackageManager()
+
     }
 
     @Override
     protected void initView() {
+
     }
 
 

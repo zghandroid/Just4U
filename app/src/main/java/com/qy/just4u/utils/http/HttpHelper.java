@@ -6,5 +6,11 @@ package com.qy.just4u.utils.http;
  */
 
 public class HttpHelper {
+    public static String getData(){
+
+        return null;
+    }
+
+
 
 }
